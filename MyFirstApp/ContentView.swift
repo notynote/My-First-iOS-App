@@ -22,9 +22,9 @@ struct ContentView: View {
                 .padding()
             Button(action: {
                 
-                self.rand = Int.random(in: 0...4)
+                self.rand = Int.random(in: 0...5)
                 
-                let menuList = ["กะเพราหมูกรอบ","ข้าวผัดปู","ข้าวมันไก่","ส้มตำ","ข้าวหมูแดง"]
+                let menuList = ["กะเพราหมูกรอบ","ข้าวผัดปู","ข้าวมันไก่","ส้มตำ","ข้าวหมูแดง","สปาเก็ตตี้"]
                 
                 self.name = menuList[rand]
                 
